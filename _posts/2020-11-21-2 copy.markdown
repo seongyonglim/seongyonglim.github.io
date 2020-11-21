@@ -1,0 +1,7 @@
+---
+layout: post
+title:  "팀 진행사항"
+date:   2020-11-21 18:12:32
+categories: Assignment
+---
+
