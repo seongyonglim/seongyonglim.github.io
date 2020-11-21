@@ -1,25 +1,18 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2015-04-09 11:23:32
-categories: jekyll update
+title:  "선정 프로젝트 분석 및 개선방향"
+date:   2020-11-21 18:32:32
+categories: Assignment
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+[KoreaNewsCrawler][krC] 라는 프로젝트는 네이버 포털에 올라오는 언론사 뉴스 기사들을 크롤링 해주는 크롤러를 제작하는 프로젝트입니다.
+크롤링이 가능한 카테고리는 현재 정치, 경제, 생활문화, IT과학, 사회, 세계, 오피니언이 있으며 기존에 가능했던 스포츠기사 카테고리는
+html형식이 완전 바뀌어 크롤링이 불가한 상황입니다.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+모든 크롤링된 데이터들은 csv확장자로 저장되며, 수집되는 정보들은 기사의 날짜, 카테고리, 언론사, 제목, 본문 그리고 주소입니다.
 
-Jekyll also offers powerful support for code snippets:
+현재 저희가 생각하고있는 개선 방향은 새로 바뀐 html형식에 맞추어 스포츠기사 카테고리부분 역시 크롤링할 수 있도록 수정하는 것이며
+또한 새로운 기능들을 추가해볼 예정입니다. 예를들어 크롤링 가능한 포털을 네이버 뿐만 아니라 다음까지도 늘려볼 생각이며, 수집 되는 데이터들
+역시 늘려볼 생각입니다. 기사에 적힌 댓글중에 인기 댓글들, 기사에 매겨진 좋아요 및 싫어요 갯수와 같은 것들을 포함시켜보려합니다.
+또한 지정된 기간내에 원하는 수의 뉴스만 읽어올 수 있게하는 기능도 추가해볼 생각입니다.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+[krC]:      https://github.com/lumyjuwon/KoreaNewsCrawler
