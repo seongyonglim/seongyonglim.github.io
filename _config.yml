@@ -1,11 +1,9 @@
 # Site settings
-title: Your awesome title
-motto: Your motto
-email: your-email@domain.com
+title: 2020 OSS 6조 임성용
+motto: 
+email: seongyonglim@naver.com
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  OSS 실습 개인 정적 페이지입니다.
 remote_theme: smallmuou/Jekyll-Pithy
 #baseurl: "" # the subpath of your site, e.g. /blog/
 #url: "http://yourdomain.com" # the base hostname & protocol for your site
