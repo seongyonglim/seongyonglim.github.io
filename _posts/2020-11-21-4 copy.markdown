@@ -2,7 +2,7 @@
 layout: post
 title:  "나의 개발 능력 및 역할분석"
 date:   2020-11-21 18:52:32
-categories: jekyll update
+categories: Assignment
 ---
 아직 제대로된 개발 및 프로젝트를 진행해본적이 없어 수행 능력을 정확히 평가하긴 힘들지만, 현재 제 코딩 실력은 이렇습니다.
 파이썬, C 그리고 C++로 자료구조 및 알고리즘 설계까지 가능하며 stack overflow의 게시물을 어느정도 알아볼 수 있는 
